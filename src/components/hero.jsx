@@ -1,5 +1,6 @@
 import './hero.css';
 import React from 'react';
+import image from '../imagines/image.jpg';
 
 function Hero() {
     return (
@@ -11,7 +12,7 @@ function Hero() {
                 <a href="#projects"><button>View My Work</button></a>
             </div>
             <div className="hero-image">
-                <img src="https://i.ibb.co/7S0cBQ8/portfolio-girl.png" alt="Neha Portfolio Banner" />
+                <img src={image} alt="Neha Portfolio Banner" />
             </div>
         </section>
     )
