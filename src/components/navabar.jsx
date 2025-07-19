@@ -1,3 +1,6 @@
+import './navabar.css';
+import React from 'react';
+
 function Navbar() {
     return (
         <nav className="navbar">
@@ -5,8 +8,8 @@ function Navbar() {
             <ul className="nav-links">
                 <li>Home</li>
                 <li>About</li>
-                <li>Project</li>
-                <li>Contsct</li>
+                <li>Projects</li>
+                <li>Contact</li>
             </ul>
 
         </nav>
