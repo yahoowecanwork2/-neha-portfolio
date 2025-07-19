@@ -1,8 +1,19 @@
+import './hero.css';
+import React from 'react';
+
 function Hero() {
     return (
-        <div>
-            <h1>this is Herosection</h1>
-        </div>
+        <section className='hero'>
+            <div className="hero-text">
+                <h1>Hi, I'm <span>Neha Yadav</span></h1>
+                <h2>Frontend Developer</h2>
+                <p>I design and build beautiful, responsive websites using HTML, CSS, JavaScript & React.</p>
+                <a href="#projects"><button>View My Work</button></a>
+            </div>
+            <div className="hero-image">
+                <img src="https://i.ibb.co/7S0cBQ8/portfolio-girl.png" alt="Neha Portfolio Banner" />
+            </div>
+        </section>
     )
 }
 
