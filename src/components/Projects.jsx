@@ -1,4 +1,4 @@
-// import './Project.css';
+import '../components/Projects.css';
 import React from 'react';
 import hunnyBeeImg from '../imagines/Screenshot 2025-07-13 194740.png';
 
