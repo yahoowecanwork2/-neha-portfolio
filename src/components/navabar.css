@@ -8,7 +8,6 @@
     position: sticky;
     top: 0;
     z-index: 50;
-    flex-wrap: wrap;
 }
 
 .logo {
@@ -20,8 +19,10 @@
 .nav-links {
     display: flex;
     gap: 1.5rem;
+    list-style: none;
     font-weight: 500;
     color: #374151;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-links li {
@@ -33,23 +34,33 @@
     color: #3b82f6;
 }
 
-/* ✅ Mobile Responsive Styling */
+/* ✅ Mobile nav hidden by default */
+.menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+/* ✅ Responsive nav styles */
 @media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 1rem;
-    }
-
     .nav-links {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: white;
         flex-direction: column;
-        gap: 0.8rem;
-        width: 100%;
-        margin-top: 1rem;
+        gap: 1rem;
+        width: 200px;
+        padding: 1rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        display: none;
     }
 
-    .nav-links li {
-        font-size: 1rem;
-        padding: 0.5rem 0;
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
     }
 }
