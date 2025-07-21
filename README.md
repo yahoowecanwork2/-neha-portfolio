@@ -5,7 +5,7 @@ This project showcases my frontend development skills, personal projects, and co
 
 ## 🚀 Live Website
 
-👉 [Click here to view it live](https://yahoowecanwork2.github.io/neha-portfolio)
+👉 [Click here to view it live](https://yahoowecanwork2.github.io/-neha-portfolio)
 
 ## 💻 Tech Stack
 
