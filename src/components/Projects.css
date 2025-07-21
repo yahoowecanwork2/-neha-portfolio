@@ -40,3 +40,29 @@
     text-decoration: none;
     font-weight: bold;
 }
+
+/* ✅ Responsive CSS */
+@media (max-width: 768px) {
+    .projects {
+        padding: 20px;
+    }
+
+    .projects h2 {
+        font-size: 24px;
+    }
+
+    .project-card {
+        width: 100%;
+        /* Full width on small screens */
+        max-width: 90vw;
+        /* Slight margin on sides */
+    }
+
+    .project-card h3 {
+        font-size: 18px;
+    }
+
+    .project-card a {
+        font-size: 14px;
+    }
+}
