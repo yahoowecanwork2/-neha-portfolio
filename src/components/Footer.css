@@ -6,3 +6,11 @@
     font-size: 14px;
     margin-top: 40px;
 }
+
+/* ✅ Optional responsive improvement */
+@media (max-width: 600px) {
+    .footer {
+        padding: 15px 10px;
+        font-size: 13px;
+    }
+}

@@ -34,3 +34,22 @@
 .contact-links a:hover {
     color: #007bff;
 }
+
+/* ✅ Responsive for smaller screens */
+@media (max-width: 600px) {
+    .contact {
+        padding: 20px;
+    }
+
+    .contact h2 {
+        font-size: 24px;
+    }
+
+    .contact p {
+        font-size: 16px;
+    }
+
+    .contact-links a {
+        font-size: 16px;
+    }
+}
