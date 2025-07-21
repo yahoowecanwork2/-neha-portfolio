@@ -1,5 +1,6 @@
 import About from "./components/about";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Hero from "./components/hero";
 import Navbar from "./components/navabar";
 import Project from "./components/Projects";
@@ -16,6 +17,7 @@ function App() {
       <Project />
       <Skill />
       <Contact />
+      <Footer />
     </div>
   )
 }
