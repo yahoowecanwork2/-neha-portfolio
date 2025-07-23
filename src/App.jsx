@@ -9,6 +9,7 @@ import Project from "./components/Projects";
 import Service from "./components/Service";
 import Skill from "./components/Skills";
 import "./App.css";
+import Services from "./components/Service";
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
         <Navbar />
         <Hero />
         <About />
-        <Service />
+        <Services />
         <Project />
         <Skill />
         <Contact />
