@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/hero";
 import Navbar from "./components/navabar";
 import Project from "./components/Projects";
+import Service from "./components/Service";
 import Skill from "./components/Skills";
 
 
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Service />
       <Project />
       <Skill />
       <Contact />
