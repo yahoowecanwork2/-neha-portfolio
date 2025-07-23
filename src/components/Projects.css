@@ -1,59 +1,67 @@
 .project {
-    padding: 4rem 2rem;
-    background: #f7f7f7;
+    padding: 60px 20px;
+    background-color: #f6f4fb;
+    /* Light background */
+    text-align: center;
 }
 
 .section-title {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: #4b0082;
+    font-size: 32px;
+    color: #4c2885;
+    margin-bottom: 40px;
 }
 
-/* FLEXBOX ROW */
 .project-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 30px;
 }
 
-/* CARD STYLE */
 .project-card {
-    background: white;
-    width: 300px;
-    padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border: 2px solid #e0d4f7;
+    border-radius: 16px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease;
-    text-align: center;
 }
 
 .project-card:hover {
-    transform: translateY(-6px);
+    transform: translateY(-5px);
 }
 
 .project-card h3 {
-    font-size: 1.4rem;
-    color: #333;
+    font-size: 20px;
+    color: #5a2ca0;
+    margin-bottom: 10px;
 }
 
 .project-card p {
-    color: #666;
-    font-size: 1rem;
-    margin: 0.7rem 0;
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 15px;
 }
 
-.project-card a {
-    text-decoration: none;
-    margin: 0.3rem;
+.project-btns {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn {
     display: inline-block;
-    background: #6a0dad;
+    padding: 8px 16px;
+    background-color: #7d4fd3;
     color: white;
-    padding: 0.4rem 0.8rem;
-    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
 }
 
-.project-card a:hover {
-    background: #8543c2;
+.btn:hover {
+    background-color: #6c3bc2;
 }
