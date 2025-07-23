@@ -1,21 +1,18 @@
-
-import './about.css';
 import React from 'react';
+import '../components/about.css';
 
 function About() {
     return (
         <section className="about" id="about">
-            <h2>about me</h2>
-            <p>  I'm a passionate frontend developer who loves crafting clean and responsive websites.
-                I have hands-on experience in HTML, CSS, JavaScript, and React. Currently focused on building
-                beautiful and functional UIs to provide the best user experience.
-            </p>
-            <p>
-                I'm a BCA graduate from MDU and actively looking for frontend developer opportunities in Gurgaon.
-            </p>
-
+            <h2 className="section-title">About Me 👩‍💻</h2>
+            <div className="about-content">
+                <p>
+                    I'm a passionate Frontend Developer from Gurugram, skilled in building responsive and clean web interfaces using HTML, CSS, JavaScript, and React.
+                    I enjoy creating websites that are not only beautiful but also user-friendly.
+                </p>
+            </div>
         </section>
-    )
+    );
 }
 
 export default About;

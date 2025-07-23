@@ -1,34 +1,62 @@
 .about {
-    padding: 60px 40px;
-    background-color: #fff;
+    padding: 80px 20px;
+    background-color: #f8f6ff;
+    /* light purple background */
     text-align: center;
 }
 
-.about h2 {
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 20px;
+.section-title {
+    font-size: 2.5rem;
+    color: #6c63ff;
+    /* Purple heading */
+    margin-bottom: 30px;
+    font-weight: bold;
 }
 
-.about p {
-    font-size: 18px;
-    color: #555;
+.about-content {
     max-width: 800px;
-    margin: 10px auto;
-    line-height: 1.6;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    position: relative;
+    transition: transform 0.3s ease;
 }
 
-/* ✅ Responsive styles */
-@media (max-width: 768px) {
-    .about {
-        padding: 40px 20px;
+/* Emojis */
+.about-content::before {
+    content: "👩‍💻 ";
+    font-size: 1.5rem;
+    position: absolute;
+    top: -25px;
+    left: 20px;
+}
+
+.about-content::after {
+    content: " 🚀";
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: -25px;
+    right: 20px;
+}
+
+/* Hover animation */
+.about-content:hover {
+    transform: translateY(-5px);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
     }
 
-    .about h2 {
-        font-size: 28px;
-    }
-
-    .about p {
-        font-size: 16px;
+    .about-content {
+        font-size: 1rem;
+        padding: 20px 15px;
     }
 }
