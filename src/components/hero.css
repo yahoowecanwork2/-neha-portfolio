@@ -1,6 +1,6 @@
 .hero {
     height: 100vh;
-    background: linear-gradient(to right, #a678e2, #c59bf2);
+    background: linear-gradient(to right, #d8b4f8, #e9d5ff);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@
 .hero-content h2 {
     font-size: 28px;
     margin-bottom: 15px;
-    color: #e0d2f0;
+    color: #f3e8ff;
 }
 
 .hero-content p {
@@ -66,4 +66,59 @@
     height: auto;
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        padding-top: 40px;
+        height: auto;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content h2 {
+        font-size: 22px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero-button {
+        padding: 10px 24px;
+        font-size: 15px;
+    }
+
+    .hero-image img {
+        width: 240px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 28px;
+    }
+
+    .hero-content h2 {
+        font-size: 18px;
+    }
+
+    .hero-content p {
+        font-size: 15px;
+    }
+
+    .hero-button {
+        width: 100%;
+        max-width: 220px;
+    }
+
+    .hero-image img {
+        width: 200px;
+    }
 }

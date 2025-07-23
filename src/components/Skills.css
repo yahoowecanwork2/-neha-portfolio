@@ -36,7 +36,7 @@
     margin-bottom: 10px;
 }
 
-/* Colors */
+/* Skill colors */
 .html {
     color: #e44d26;
 }
@@ -61,4 +61,48 @@
     font-weight: bold;
     font-size: 1.1rem;
     color: #333;
+}
+
+/* 🌐 Responsive Design */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .skill-card {
+        width: 80%;
+        padding: 15px 20px;
+    }
+
+    .skill-icon {
+        font-size: 36px;
+    }
+
+    .skill-card p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .skill-card {
+        width: 90%;
+    }
+
+    .skill-icon {
+        font-size: 32px;
+    }
+
+    .skill-card p {
+        font-size: 0.95rem;
+    }
 }

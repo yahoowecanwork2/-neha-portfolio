@@ -35,3 +35,34 @@
     color: #6a0dad;
     margin-bottom: 15px;
 }
+
+/* 🌐 Responsive Design */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 28px;
+    }
+
+    .service-card {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .service-icon {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 24px;
+    }
+
+    .service-card {
+        width: 90%;
+        padding: 18px;
+    }
+
+    .service-icon {
+        font-size: 32px;
+    }
+}

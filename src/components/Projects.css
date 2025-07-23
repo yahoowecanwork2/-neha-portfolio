@@ -1,7 +1,6 @@
 .project {
     padding: 60px 20px;
     background-color: #f6f4fb;
-    /* Light background */
     text-align: center;
 }
 
@@ -64,4 +63,50 @@
 
 .btn:hover {
     background-color: #6c3bc2;
+}
+
+/* 🌐 Responsive styles */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 26px;
+    }
+
+    .project-card {
+        width: 80%;
+        padding: 18px;
+    }
+
+    .project-card h3 {
+        font-size: 18px;
+    }
+
+    .project-card p {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 7px 14px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 22px;
+    }
+
+    .project-card {
+        width: 90%;
+        padding: 16px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .project-btns {
+        flex-direction: column;
+        align-items: center;
+    }
 }
