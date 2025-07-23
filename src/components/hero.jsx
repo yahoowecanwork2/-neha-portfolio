@@ -29,12 +29,7 @@ function Hero() {
                     opacity: 1,
                     x: [0, 10, -10, 10, -10, 0]  // left-right move
                 }}
-                transition={{
-                    duration: 2,
-                    ease: "easeInOut",
-                    repeat: Infinity,
-                    repeatType: "loop"
-                }}
+                transition={{ duration: 2, ease: 'easeInOut' }}
             >
                 <img src={image} alt="Neha Yadav" />
             </motion.div>
